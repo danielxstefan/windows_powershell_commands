@@ -1,3 +1,4 @@
+Get-WmiObject -Class Win32_Product | Select-Object -Property Name - list all installed programs with their names
 -------------------------------------------------------------------------------------
 Get-Help Get-Command - Get detailed help information for the Get-Command cmdlet.
 -------------------------------------------------------------------------------------
